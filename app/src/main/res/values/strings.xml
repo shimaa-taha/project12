@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">second_task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">chat</string>
+    <string name="chat1">chat1</string>
+    <string name="user_name1">user Name</string>
+    <string name="write_username1">write username1</string>
+    <string name="user1_message">user Message</string>
+    <string name="write_user1message">write user message</string>
+    <string name="send">send</string>
+    <string name="chat2">chat2</string>
+    <string name="user_name2">user Name</string>
+    <string name="write_username2">write user Name </string>
+    <string name="user2_message">user Message</string>
+    <string name="write_user2message">write user message</string>
+    <string name="chat1fragment">chat1 fragment</string>
+    <string name="chat2fragment">chat2 fragment</string>
+</resources>

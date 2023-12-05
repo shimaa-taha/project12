@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/chat2_fragments"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".chat2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="741dp"
+        android:layout_marginTop="20sp"
+        android:gravity="center|top"
+        android:text="@string/chat2fragment"
+        android:textColor="@color/orange"
+        android:textStyle="bold|italic"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/id_text_user2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="90sp"
+        android:padding="5sp"
+        android:textStyle="bold|italic"
+        android:text="@string/user_name2"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginRight="10sp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:hint="@string/write_username2"
+        android:inputType="text"
+        android:padding="5sp" />
+    <TextView
+        android:id="@+id/id_text_message2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="220sp"
+        android:textStyle="bold|italic"
+        android:padding="5sp"
+        android:textColor="@color/orange"
+        android:text="@string/user2_message"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_usermessage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280sp"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="10sp"
+        android:ems="10"
+        android:hint="@string/write_user2message"
+        android:inputType="text"
+        android:padding="5sp" />
+    <Button
+        android:id="@+id/b_send2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_marginTop="400sp"
+        android:layout_marginRight="10sp"
+        />
+
+
+
+</FrameLayout>
